@@ -10,9 +10,13 @@
 		D6C6ECEE2614C89200F2C67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6ECED2614C89200F2C67F /* AppDelegate.swift */; };
 		D6C6ECF02614C89200F2C67F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6ECEF2614C89200F2C67F /* SceneDelegate.swift */; };
 		D6C6ECF22614C89200F2C67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6ECF12614C89200F2C67F /* ViewController.swift */; };
-		D6C6ECF52614C89200F2C67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C6ECF32614C89200F2C67F /* Main.storyboard */; };
 		D6C6ECF72614C89600F2C67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C6ECF62614C89600F2C67F /* Assets.xcassets */; };
 		D6C6ECFA2614C89600F2C67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C6ECF82614C89600F2C67F /* LaunchScreen.storyboard */; };
+		D6C6ED032614CABF00F2C67F /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6ED022614CABF00F2C67F /* RequestManager.swift */; };
+		D6C6ED062614CAFE00F2C67F /* movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6ED052614CAFE00F2C67F /* movies.swift */; };
+		D6C6ED092614CB3F00F2C67F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6ED082614CB3F00F2C67F /* TableViewCell.swift */; };
+		D6C6ED0C2614CB6D00F2C67F /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C6ED0B2614CB6D00F2C67F /* ProductDetailViewController.swift */; };
+		D6C6ED102614CBA700F2C67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C6ED0F2614CBA700F2C67F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		D6C6ECED2614C89200F2C67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C6ECEF2614C89200F2C67F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6C6ECF12614C89200F2C67F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6C6ECF42614C89200F2C67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6C6ECF62614C89600F2C67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C6ECF92614C89600F2C67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C6ECFB2614C89600F2C67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C6ED022614CABF00F2C67F /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		D6C6ED052614CAFE00F2C67F /* movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movies.swift; sourceTree = "<group>"; };
+		D6C6ED082614CB3F00F2C67F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D6C6ED0B2614CB6D00F2C67F /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		D6C6ED0F2614CBA700F2C67F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				D6C6ECED2614C89200F2C67F /* AppDelegate.swift */,
 				D6C6ECEF2614C89200F2C67F /* SceneDelegate.swift */,
 				D6C6ECF12614C89200F2C67F /* ViewController.swift */,
-				D6C6ECF32614C89200F2C67F /* Main.storyboard */,
 				D6C6ECF62614C89600F2C67F /* Assets.xcassets */,
 				D6C6ECF82614C89600F2C67F /* LaunchScreen.storyboard */,
+				D6C6ED0F2614CBA700F2C67F /* Main.storyboard */,
 				D6C6ECFB2614C89600F2C67F /* Info.plist */,
+				D6C6ED022614CABF00F2C67F /* RequestManager.swift */,
+				D6C6ED052614CAFE00F2C67F /* movies.swift */,
+				D6C6ED082614CB3F00F2C67F /* TableViewCell.swift */,
+				D6C6ED0B2614CB6D00F2C67F /* ProductDetailViewController.swift */,
 			);
 			path = movieDB;
 			sourceTree = "<group>";
@@ -124,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C6ED102614CBA700F2C67F /* Main.storyboard in Resources */,
 				D6C6ECFA2614C89600F2C67F /* LaunchScreen.storyboard in Resources */,
 				D6C6ECF72614C89600F2C67F /* Assets.xcassets in Resources */,
-				D6C6ECF52614C89200F2C67F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,22 +150,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C6ECF22614C89200F2C67F /* ViewController.swift in Sources */,
+				D6C6ED062614CAFE00F2C67F /* movies.swift in Sources */,
+				D6C6ED0C2614CB6D00F2C67F /* ProductDetailViewController.swift in Sources */,
 				D6C6ECEE2614C89200F2C67F /* AppDelegate.swift in Sources */,
+				D6C6ED092614CB3F00F2C67F /* TableViewCell.swift in Sources */,
 				D6C6ECF02614C89200F2C67F /* SceneDelegate.swift in Sources */,
+				D6C6ED032614CABF00F2C67F /* RequestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D6C6ECF32614C89200F2C67F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6C6ECF42614C89200F2C67F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6C6ECF82614C89600F2C67F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
